@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #9ba9eb;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.app-logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+.top-container {
+  width: 100%;
+  max-height: 100%;
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.bottom-container {
+  width: 100%;
+  max-height: 100%;
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.img-sm {
+  width: 100%;
+}
+.img-lg {
+  display: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .img-sm {
+    display: none;
+  }
+  .img-lg {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+  }
+  .top-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #454f84;
+    margin: 0px;
+    padding: 20px 40px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-lg {
+    width: 100%;
+    max-width: 450px;
+    height: 450px;
+  }
+  .form-container {
+    width: 100%;
+    max-width: 550px;
+  }
+}
+.input-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 2px;
+  width: 180px;
+  height: 30px;
+}
+@media (max-width: 576px) {
+  .search-container {
+    height: 25px;
+    width: 100px;
+  }
+}
+.search-icon {
+  height: 14px;
+  width: 14px;
+  margin: 5px;
+}
+.search {
+  width: 100%;
+  height: 23px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #c3caea;
+  padding: 10px;
+}
+.website {
+  height: 15px;
+  width: 15px;
+  margin: 10px;
+}
+.input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-left-color: #c3caea;
+  padding: 10px;
+}
+.title {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+}
+.button {
+  height: 32px;
+  width: 100px;
+  border: 5px;
+  border-style: none;
+  color: #ffffff;
+  background-color: #0b69ff;
+  align-self: flex-end;
+}
+
+.bottom-top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title1 {
+  font-size: 10px;
+  color: #ffffff;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .title1 {
+    font-size: 20px;
+  }
+}
+.line {
+  width: 100%;
+  color: #94a3b8;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.no-passwords-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.no-password-img {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 40px;
+}
+.no-passwords {
+  font-size: 25px;
+  color: #94a3b8;
+  margin-top: 20px;
+}
+.count {
+  border: 1px solid #94a3b8;
+  border-radius: 20px;
+  background-color: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 12px;
+}
+.list-container {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.checkbox-container {
+  display: flex;
+  align-self: flex-end;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.checkbox {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.count-container {
+  display: flex;
+  align-items: center;
+}

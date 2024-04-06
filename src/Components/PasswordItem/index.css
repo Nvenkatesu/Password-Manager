@@ -1,0 +1,81 @@
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #94a3b8;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin: 0px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .list-item {
+    max-width: 250px;
+  }
+}
+
+.details-container {
+  padding-left: 8px;
+}
+.initial {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.initial-name {
+  font-size: 28px;
+  color: #b6c3ca;
+}
+.website-title {
+  margin: 0px;
+  font-size: 20px;
+  color: #b6c3ca;
+}
+.username {
+  margin: 0px;
+  font-size: 16px;
+  color: #b6c3ca;
+  padding-top: 3px;
+}
+.password {
+  margin: 0px;
+  font-size: 16px;
+  color: #b6c3ca;
+  padding-top: 3px;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.delete-icon {
+  height: 18px;
+  width: 18px;
+}
+.details {
+  display: flex;
+  align-items: center;
+}
+.color1 {
+  background-color: #7683cb;
+}
+.color2 {
+  background-color: #f59e0b;
+}
+.color3 {
+  background-color: #10b981;
+}
+.color4 {
+  background-color: #14b8a6;
+}
+.color5 {
+  background-color: #b91c1c;
+}
+.stars {
+  width: 100px;
+}
